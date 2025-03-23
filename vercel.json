@@ -1,5 +1,5 @@
 {
-  "buildCommand": "mkdir -p assets/build && npm run build",
-  "outputDirectory": ".",
+  "buildCommand": "mkdir -p /vercel/output/assets/build && npm run build",
+  "outputDirectory": "dist",
   "framework": null
 }
